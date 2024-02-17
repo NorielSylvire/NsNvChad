@@ -20,6 +20,20 @@ local plugins = {
     dependencies = { {'nvim-telescope/telescope.nvim'}}
   },
   {
+    'nvim-focus/focus.nvim',
+    version = false
+  },
+	{
+  'nvimdev/dashboard-nvim',
+  event = 'VimEnter',
+  config = function()
+    require('dashboard').setup {
+      -- config
+    }
+  end,
+  dependencies = { {'nvim-tree/nvim-web-devicons'}}
+	},
+  {
     'hardyrafael17/norminette42.nvim',
     lazy = false,
     config = function()

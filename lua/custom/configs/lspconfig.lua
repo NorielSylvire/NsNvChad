@@ -38,10 +38,7 @@ lspconfig.gdscript.setup{
 }
 
 lspconfig.clangd.setup{
-  cmd = {
-	"clang-format",
-	"clangd"
-  },
+  cmd = {"clangd"},
   on_attach = on_attach,
   capabilities = capabilities,
   filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },

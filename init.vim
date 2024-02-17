@@ -21,13 +21,6 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
 
-"" General tab settings
-"" For specific filetypes set these in their respectivee ftplugin
-set noexpandtab
-set shiftwidth=2
-set tabstop=2
-set tabline=2
-
 "" Session management
 let g:session_directory = "~/.cache/neovim/session"
 let g:session_autoload = "no"

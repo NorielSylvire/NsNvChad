@@ -57,6 +57,12 @@ cnoreabbrev Wq wq
 cnoreabbrev Wa wa
 cnoreabbrev wQ wq
 cnoreabbrev WQ wq
+cnoreabbrev Qa qa
+cnoreabbrev qA qa
+cnoreabbrev QA qa
+cnoreabbrev Wa wa
+cnoreabbrev wA wa
+cnoreabbrev WA wa
 cnoreabbrev Xa xa
 cnoreabbrev xA xa
 cnoreabbrev XA xa

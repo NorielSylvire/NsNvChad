@@ -25,19 +25,21 @@
 
 ## Showcase
 
-<img src="https://nvchad.com/features/nvdash.webp">
+<img src="https://github.com/NorielSylvire/NsNvChad/blob/ns/assets/dashboard-screenshot.png?raw=true" allt="Dashboard: customized with useful quick access keys such as project inspection!">
 <img src="https://nvchad.com/banner.webp">
-
+<img src="https://github.com/NorielSylvire/NsNvChad/blob/ns/assets/cerebrigion-theme-screenshot.png?raw=true" alt="Chadracula: custom theme that keeps green and red terminal colors. Great for testing. Dark and high contrast!">
 <img src="https://nvchad.com/screenshots/onedark.webp">
 <img src="https://nvchad.com/screenshots/rxyhn1.webp">
 
 ## What is it?
 
-- NvChad is a neovim config written in lua aiming to provide a base configuration with very beautiful UI and blazing fast startuptime (around 0.02 secs ~ 0.07 secs). We tweak UI plugins such as telescope, nvim-tree, bufferline etc well to provide an aesthetic UI experience. 
+- NvChad is a neovim config written in lua aiming to provide a base configuration with very beautiful UI and blazing fast startuptime (around 0.02 secs ~ 0.07 secs). We tweak UI plugins such as telescope, nvim-tree, bufferline etc well to provide an aesthetic UI experience.
 
 - Lazy loading is done 93% of the time meaning that plugins will not be loaded by default, they will be loaded only when required also at specific commands, events etc. This lowers the startuptime and it was like 0.07~ secs tested on an old pentium machine 1.4ghz + 4gb ram & HDD.
 
 - NvChad isn't a framework! It's supposed to be used as a "base" config, so users can tweak the defaults well, and also remove the things they don't like in the default config and build their config on top of it. Users can tweak the entire default config while staying in their custom config (lua/custom dir). This is the control center of the user's config and gitignored so the users can stay up-to-date with NvChad's latest config (main branch) while still controlling it with their chadrc (file that controls entire custom dir).
+
+- NsNvChad: NvChad customized by NorielSylvire. Comes with 42 StdHeader and norminette plugins, pre-configured c formatting following the norm, as well as other goodies such as configured LSPs, custom (local) themes, and a different dashboard customized for ease of access to projects!
 
 ## Theme Showcase
 
@@ -95,18 +97,23 @@ A fuzzy file finder, picker, sorter, previewer and much more:
 - NeoVim Lsp configuration with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) and [mason.nvim](https://github.com/williamboman/mason.nvim)
 - Autocompletion with [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - File searching, previewing image and text files and more with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim).
+- Project searching and per-project session management with [neovim-project](https://github.com/coffebar/neovim-project)
 - Syntax highlighting with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - Autoclosing braces and html tags with [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - Indentlines with [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - Useful snippets with [friendly snippets](https://github.com/rafamadriz/friendly-snippets) + [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
 - Popup mappings keysheet [whichkey.nvim](https://github.com/folke/which-key.nvim)
+- Custom dashboard with quick access keys thanks to [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
+- Standard School 42 header automation with [42header.vim](https://github.com/42Paris/42header)
+- Get notified of norm mistakes with [norminette42.nvim](https://github.com/hardyrafael17/norminette42.nvim)
 
 ## History
 
 - I (@siduck i.e creator of NvChad) in my initial days of learning to program wanted a lightweight IDE for writing code, I had a very low end system which was like 1.4ghz pentium + 4gb ram & HDD. I was into web dev stuff so many suggested me to use vscode but that thing was very heavy on my system, It took more ram than my browser! ( minimal ungoogled chromium ) so I never tried it again, sublime text was nice but the fear of using proprietary software XD for a linux user bugged me a lot. Then I tried doom-emacs which looked pretty but it was slow and I was lost within its docs, I tried lunarvim but too lazy to read the docs. Doom-emacs and lunarvim inspired me to make a config which is the prettiest + very fast and simple.
 
 - I'm decent at ricing i.e customizing system and making it look pretty so I posted my neovim rice on [neovim subreddit](https://www.reddit.com/r/neovim/comments/m3xl4f/neovim_rice/), my neovim-dotfiles github repo blew up and then I had to come up with a name, I was amazed by the chad meme lol so I put NvChad as the name, the chad word in here doesnt literally mean the chad guy but in the sense such as chad linux vs windows i.e meaning superior, best etc. NvChad was made for my personal use but it gained some popularity which inspired me to make a public config i.e config usable by many and less hassle to update as everyone's going to use the same base config (NvChad) with their custom modifications (which are gitignored so that wont mess up), without the custom config stuff users would have to keep a track of every commit and copy paste git diffs to manually update nvchad.
- 
+
+- Then Noriel Sylvire came and customized this awesome tool to both better fit School 42's norms and guidelines, and to make it more convenient for (specifically) programming in C, among other things. Hope you enjoy! 😄 
 ## :gift_heart: Support
 
 If you like NvChad and would like to support & appreciate it via donation then I'll gladly accept it. 

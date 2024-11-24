@@ -1,7 +1,10 @@
 ---@type ChadrcConfig
 local M = {}
-M.ui = { theme = 'oxocarbon',
-  theme_toggle = { 'oxocarbon', 'gatekeeper' }
+M.ui = { theme = 'cerebrigion',
+  theme_toggle = { 'cerebrigion', 'gatekeeper' },
+  --tabufline = {
+    --enabled = false
+  --}
 }
 M.plugins = 'custom.plugins'
 return M

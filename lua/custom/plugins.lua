@@ -88,6 +88,19 @@ local plugins = {
         maxErrorsToShow = 50
       })
     end
+  },
+	{
+		'github/copilot.vim',
+		lazy = false
+	},
+  {
+    'akinsho/bufferline.nvim',
+    version = "*",
+    dependencies = 'nvim-tree/nvim-web-devicons',
+	config = function ()
+      require "custom.configs.bufferline"
+    end,
+	--lazy = false
   }
 }
 return plugins

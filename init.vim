@@ -27,6 +27,11 @@ let g:session_autoload = "no"
 let g:session_autosave = "no"
 let g:session_command_aliases = 1
 
+"" Indentation
+set noexpandtab
+set tabstop=4
+set shiftwidth=4
+
 "" Searching
 set hlsearch
 set incsearch
